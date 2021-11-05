@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+ @font-face {
+     font-family: "Cursive";
+     src: url(Fuentes/Cursiva.ttf);
+ }
+ @font-face {
+     font-family: "text";
+     src: url(Fuentes/OTRA.ttf);
+ }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.Fondo {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+}
+video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.contenedor1 {
+    z-index: 2;
+    color: white;
+    width: 33%;
+    height: 100vh;
+    float: left;
+}
+
+#instagram {
+    padding-top: 1px;
+  margin: 0 0 0 43%;
+    width: 50px;
+    border: none;
+    
+}
+#instagram:hover {
+    content: url("Imagenes/instagram\ \(4\).png");
+    inline-size: 60px;
+}
+
+#pexels {
+    padding-top: 1px;
+    margin: 0 auto;
+    width: 50px;
+    border: none;
+}
+#pexels:hover {
+    content: url("Imagenes/pexels.png");
+    inline-size: 60px;
+}
+
+.contenedor1 h1 {
+    font-family: "Cursive";
+    font-size: 300%;
+    margin-Left: 5px;
+    text-align: center;
+}
+.contenedor1 h2 {
+    font-family: "Cursive";
+    font-size: 200%;
+    margin-Left: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+.contenedor1 p {
+    font-family: "text";
+    margin-Left: 10px;
+    border: 0.8px solid white;
+    background-color: rgba(123, 124, 126, 0.514);
+    margin-right: 30px;
+
+}
+.contenedor2 {
+    z-index: 2;
+    width: 33%;
+    height: 100vh;
+    float: left;
+    margin-top: 10px;
+    
+    
+}
+
+.contenedor3 {
+    z-index: 2;
+    width: 33%;
+    height: 100vh;
+    float: left;
+    max-width: 33.3%;
+    margin-top: 5%;
+
+}
+
+img {
+    box-sizing: border-box;
+    width: 30%;
+    margin: 1.4%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+.CAJA {
+    z-index: 2;
+    float: LEFT;
+    margin: 0 auto;
+    padding: 1px;
+    width: 50%;
+    height: 33%;
+    border: 0.8px solid white;
+}
+
+.CAJA2 {
+    width: 50%;
+    height: 33%;
+    z-index: 2;
+    float: left;
+    text-align: center;
+    display: table;
+    
+}
+
+.Derecha {
+    margin-left: 38%;
+}
+
+
+.CAJA2 p {
+    color: white;
+    margin:0;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "text";
+  
+    
+}
+
+.Distinto {
+    width: 60%;
+    height: auto;
+}
+
+img:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
